@@ -1,0 +1,43 @@
+WHAT IS FLASK?
+Flask is a web application framework written in Python
+                                
+                                 ADVANTAGES OF FLASK                                                 
+Simplicity and Lightweight: Flask is a micro web framework that is simple and lightweight, making it easy to learn and quick to get started with.
+
+Flexibility: Flask allows developers to choose the components they need, making it highly flexible for various project requirements.
+
+Extensible: Flask is extensible, and developers can use Flask extensions to add features and functionalities as needed.
+
+Built-in Development Server: Flask comes with a built-in development server, making it easy to test and debug applications during development.
+
+Jinja2 Templating: Flask uses the Jinja2 templating engine, which allows developers to create dynamic and interactive web pages with ease.
+
+                                DISADVANTAGES OF FLASK
+Not Suitable for Large Applications: Flask is designed for small to medium-sized applications, and it may not be the best choice for large and complex projects.
+
+Fewer Built-in Features: Compared to full-stack frameworks, Flask has fewer built-in features, which means developers may need to rely on extensions or third-party libraries for certain functionalities.
+
+Opinionated Structure: Flask is not opinionated about the project structure, which can lead to inconsistency in larger projects and may require more manual organization.
+
+                                PREREQUISITIES FOR FLASK
+Before diving into Flask development, it's essential to have the following prerequisites:
+
+Python Knowledge: A good understanding of Python programming language is crucial since Flask is a Python web framework.
+
+HTML/CSS Knowledge: Basic knowledge of HTML and CSS is beneficial for building web pages and styling applications.
+
+Virtual Environment: Familiarity with creating and using virtual environments in Python for project isolation.
+
+Basic Web Development Concepts: Understanding of basic web development concepts like HTTP, REST, and MVC architecture.
+
+                            DISCUSSION ON VARIABLE NAMES IN FLASK 
+In Flask, variable names play a significant role in defining routes and handling dynamic content. The following are some;
+
+Route Parameters: In Flask routes, variable names enclosed in < > are used as parameters. For example, @app.route('/user/<username>') defines a route that can accept dynamic values for the username variable.
+
+Request Parameters: When handling form submissions or query parameters, variable names in the request context become crucial. Using meaningful and clear variable names enhances code readability.
+
+View Function Variables: Variables used within view functions should follow Python naming conventions. Descriptive names contribute to code clarity and maintainability.
+
+Avoiding Ambiguity: Choose variable names that clearly represent their purpose to avoid ambiguity and confusion, especially in larger projects.
+
